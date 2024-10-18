@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable[]",
+						"name": "recipients",
+						"type": "address[]"
+					},
+					{
+						"internalType": "uint256[]",
+						"name": "amounts",
+						"type": "uint256[]"
+					}
+				],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TransferEthOneToMany.sol": "OneToManyTransfer"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TransferEthOneToMany.sol": {
+			"keccak256": "0x11ac42e526039cec9f631cf8af1a25c0c573a02188ccb066bf3c0847184c1a13",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://17586c16cee44df79efc4f94028561e5c1a2cfba46fe1972c127d240681613fe",
+				"dweb:/ipfs/QmZAxt5GEC2kcc74hbvdZjyguzfARPpHYeebTozed2cxqw"
+			]
+		}
+	},
+	"version": 1
+}
