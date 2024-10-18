@@ -1,0 +1,99 @@
+{
+	"compiler": {
+		"version": "0.4.25+commit.59dbf8f1"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"name": "recipients",
+						"type": "address[]"
+					},
+					{
+						"name": "values",
+						"type": "uint256[]"
+					}
+				],
+				"name": "disperseTokenSimple",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "token",
+						"type": "address"
+					},
+					{
+						"name": "recipients",
+						"type": "address[]"
+					},
+					{
+						"name": "values",
+						"type": "uint256[]"
+					}
+				],
+				"name": "disperseToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "recipients",
+						"type": "address[]"
+					},
+					{
+						"name": "values",
+						"type": "uint256[]"
+					}
+				],
+				"name": "disperseEther",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TransferOneToManyEth.sol": "TransferOnetoManyEth"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TransferOneToManyEth.sol": {
+			"keccak256": "0xa6a1110b43d1e0c4b7247444ce5b82a54d32713c6f5a489a3eb12936328cb7fe",
+			"urls": [
+				"bzzr://4fd5229db3d9ccc21b9d0765fc69ad17520b80859128cfec04a59c0dae21e0da"
+			]
+		}
+	},
+	"version": 1
+}
