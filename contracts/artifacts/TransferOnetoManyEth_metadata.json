@@ -9,50 +9,6 @@
 				"constant": false,
 				"inputs": [
 					{
-						"name": "token",
-						"type": "address"
-					},
-					{
-						"name": "recipients",
-						"type": "address[]"
-					},
-					{
-						"name": "values",
-						"type": "uint256[]"
-					}
-				],
-				"name": "disperseTokenSimple",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [
-					{
-						"name": "token",
-						"type": "address"
-					},
-					{
-						"name": "recipients",
-						"type": "address[]"
-					},
-					{
-						"name": "values",
-						"type": "uint256[]"
-					}
-				],
-				"name": "disperseToken",
-				"outputs": [],
-				"payable": false,
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"constant": false,
-				"inputs": [
-					{
 						"name": "recipients",
 						"type": "address[]"
 					},
@@ -89,9 +45,9 @@
 	},
 	"sources": {
 		"contracts/TransferOneToManyEth.sol": {
-			"keccak256": "0xa6a1110b43d1e0c4b7247444ce5b82a54d32713c6f5a489a3eb12936328cb7fe",
+			"keccak256": "0x8f623389313405d9eb8a5ac0734d0bcc97d87791219c5948db2eec444242249e",
 			"urls": [
-				"bzzr://4fd5229db3d9ccc21b9d0765fc69ad17520b80859128cfec04a59c0dae21e0da"
+				"bzzr://862d8cb2d074f11a165c1c6600397fc450a9b19b1c7002148509047ed878e6dc"
 			]
 		}
 	},

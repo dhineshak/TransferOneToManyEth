@@ -1,0 +1,45 @@
+{
+  "accounts": {
+    "account{0}": "0x5B38Da6a701c568545dCfcB03FcB875f56beddC4"
+  },
+  "linkReferences": {},
+  "transactions": [
+    {
+      "timestamp": 1729579230953,
+      "record": {
+        "value": "0",
+        "inputs": "()",
+        "parameters": [],
+        "name": "",
+        "type": "constructor",
+        "abi": "0x1a353fe0c6fc00986b8f6485037780f8e21c1d041e606a9a947ba8ef15e17a38",
+        "contractName": "TransferOnetoManyEth",
+        "bytecode": "608060405234801561001057600080fd5b506101d0806100206000396000f300608060405260043610610041576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff168063e63d38ed14610046575b600080fd5b61008a60048036038101908080359060200190820180359060200191909192939192939080359060200190820180359060200191909192939192939050505061008c565b005b600080600091505b858590508210156101315785858381811015156100ad57fe5b9050602002013573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc85858581811015156100f157fe5b905060200201359081150290604051600060405180830381858888f19350505050158015610123573d6000803e3d6000fd5b508180600101925050610094565b3073ffffffffffffffffffffffffffffffffffffffff16319050600081111561019c573373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015801561019a573d6000803e3d6000fd5b505b5050505050505600a165627a7a72305820a70604e92422f35dad7332a17cca31199ebcb8a8a9a61dd0d7edc12c5882e9390029",
+        "linkReferences": {},
+        "from": "account{0}"
+      }
+    }
+  ],
+  "abis": {
+    "0x1a353fe0c6fc00986b8f6485037780f8e21c1d041e606a9a947ba8ef15e17a38": [
+      {
+        "constant": false,
+        "inputs": [
+          {
+            "name": "recipients",
+            "type": "address[]"
+          },
+          {
+            "name": "values",
+            "type": "uint256[]"
+          }
+        ],
+        "name": "disperseEther",
+        "outputs": [],
+        "payable": true,
+        "stateMutability": "payable",
+        "type": "function"
+      }
+    ]
+  }
+}
